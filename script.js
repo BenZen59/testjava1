@@ -33,4 +33,9 @@ function addCharacter (name,pv,pm,force,vitesse,magie,vitalité,chance)
     body.appendChild(character);
 }
 
-addCharacter('Benku',300,200,10,8,5,9,5,5);
+addCharacter('Benku',300,200,10,8,5,9,5);
+addCharacter('Noisette',200,400,5,7,10,9,5);
+addCharacter('Tenjo',250,300,5,7,8,7,5);
+addCharacter('Caniche',400,200,10,8,8,7,5);
+   
+
