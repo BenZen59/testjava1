@@ -1,6 +1,6 @@
 function addCharacter (name,pv,pm,force,vitesse,magie,vitalité,chance)
 {
-    const body = document.querySelector('body');
+    const divBody = document.querySelector('div');
     const character = document.createElement('div');
 
     const newName = document.createElement('p');
@@ -30,7 +30,7 @@ function addCharacter (name,pv,pm,force,vitesse,magie,vitalité,chance)
     character.appendChild(newVitalité);
     character.appendChild(newChance);
 
-    body.appendChild(character);
+    divBody.appendChild(character);
 }
 
 addCharacter('Benku',300,200,10,8,5,9,5);
